@@ -15,25 +15,25 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+  - id: book-doiiars-com # unique identifier
+    name: book.doiiars.com
+    description: '书库' # default=empty
+    url: 'https://book.doiiars.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: alist-doiiars-com
+    name: alist.doiiars.com
+    description: '网盘'
+    url: 'https://alist.doiiars.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: notion-doiiars-com
+    name: Doiiars Blog
+    url: 'https://notion.doiiars.com/'
     method: GET
     expectStatus: 200

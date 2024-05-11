@@ -37,3 +37,9 @@ monitors:
     url: 'https://notion.doiiars.com/'
     method: GET
     expectStatus: 200
+    
+  - id: tts-doiiars-com
+    name: microsoft tts
+    url: 'https://tts.doiiars.com/'
+    method: GET
+    expectStatus: 200

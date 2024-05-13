@@ -15,6 +15,12 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
+  - id: cdda-doiiars-com
+    name: Doiiars CDDA Guide
+    url: 'https://cdda.doiiars.com/'
+    method: GET
+    expectStatus: 200
+
   - id: book-doiiars-com # unique identifier
     name: book.doiiars.com
     description: '书库' # default=empty
@@ -22,7 +28,7 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: alist-doiiars-com
     name: alist.doiiars.com
@@ -39,7 +45,47 @@ monitors:
     expectStatus: 200
     
   - id: tts-doiiars-com
-    name: microsoft tts
+    name: Doiiars Microsoft tts
     url: 'https://tts.doiiars.com/'
     method: GET
     expectStatus: 200
+
+  - id: home-doiiars-com
+    name: Doiiars Home
+    url: 'https://home.doiiars.com/'
+    method: GET
+    expectStatus: 200
+
+ - id: jellyfin-doiiars-com
+    name: Doiiars jellyfin
+    url: 'https://jellyfin.doiiars.com/'
+    method: GET
+    expectStatus: 200
+
+- id: chatgpt-doiiars-com
+    name: Doiiars Chatgpt
+    url: 'https://chatgpt.doiiars.com/'
+    method: GET
+    expectStatus: 200
+
+- id: syncthing-doiiars-com
+    name: Doiiars Syncthing
+    url: 'https://syncthing.doiiars.com/'
+    method: GET
+    expectStatus: 200
+
+- id: aca-doiiars-com
+    name: Doiiars Aca
+    url: 'https://aca.doiiars.com/'
+    method: GET
+    expectStatus: 200
+
+	
+
+
+	
+
+
+
+	
+

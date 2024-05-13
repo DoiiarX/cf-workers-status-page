@@ -56,25 +56,25 @@ monitors:
     method: GET
     expectStatus: 200
 
- - id: jellyfin-doiiars-com
+  - id: jellyfin-doiiars-com
     name: Doiiars jellyfin
     url: 'https://jellyfin.doiiars.com/'
     method: GET
     expectStatus: 200
-
-- id: chatgpt-doiiars-com
+ 
+  - id: chatgpt-doiiars-com
     name: Doiiars ChatGpt
     url: 'https://chatgpt.doiiars.com/'
     method: GET
     expectStatus: 200
 
-- id: syncthing-doiiars-com
+  - id: syncthing-doiiars-com
     name: Doiiars Syncthing
     url: 'https://syncthing.doiiars.com/'
     method: GET
     expectStatus: 200
 
-- id: aca-doiiars-com
+  - id: aca-doiiars-com
     name: Doiiars Aca
     url: 'https://aca.doiiars.com/'
     method: GET

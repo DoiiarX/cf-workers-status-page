@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Doiiars Status Page'
   url: 'https://status-page.doiiars.com' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -63,7 +63,7 @@ monitors:
     expectStatus: 200
 
 - id: chatgpt-doiiars-com
-    name: Doiiars Chatgpt
+    name: Doiiars ChatGpt
     url: 'https://chatgpt.doiiars.com/'
     method: GET
     expectStatus: 200
@@ -79,13 +79,4 @@ monitors:
     url: 'https://aca.doiiars.com/'
     method: GET
     expectStatus: 200
-
-	
-
-
-	
-
-
-
-	
 
